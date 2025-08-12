@@ -1,10 +1,10 @@
 import { useRef, type FunctionComponent } from "react";
+import { Link } from "react-router-dom";
 import { ConfirmDialog } from "./components/confirmDialog.component";
 import { type GenericDialogHandle } from "./components/genericDialog.component";
 import { ImageDialog } from "./components/imageDialog.component";
 import { ModalDialog } from "./components/modalDialog.component";
 import { RegularDialog } from "./components/regularDialog.component";
-import { Link } from "react-router-dom";
 import "./index.css";
 
 const DialogDemo: FunctionComponent = () => {
